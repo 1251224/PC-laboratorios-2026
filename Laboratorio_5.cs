@@ -3,7 +3,6 @@ class Program
 {
     static void Main()
     {
-        // ===== EJERCICIO 1 =====
 
         Console.WriteLine("EJERCICIO 1");
 
@@ -52,7 +51,6 @@ class Program
                 Console.WriteLine("Regla extra fallida.");
         }
 
-        // ===== EJERCICIO 2 =====
 
         Console.WriteLine("\nEJERCICIO 2");
 
@@ -78,8 +76,6 @@ class Program
             Console.WriteLine("PIN aceptado por política.");
         else
             Console.WriteLine("PIN rechazado por política.");
-
-        // ===== EJERCICIO 3 =====
 
         Console.WriteLine("\nEJERCICIO 3");
 
@@ -128,7 +124,6 @@ class Program
         else
             Console.WriteLine("Cuenta NO activada.");
 
-        // ===== RETO FINAL =====
 
         Console.WriteLine("\nRETO FINAL");
 
@@ -180,4 +175,5 @@ class Program
         if (tarde > 0 && tarde <= 10)
             Console.WriteLine("Advertencia: llegó tarde, pero aún puede ingresar.");
     }
+
 }
